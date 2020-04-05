@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <HBox alignment="CENTER" prefHeight="352.0" prefWidth="429.0">
+         <children>
+            <TextField fx:id="Bit1" prefHeight="27.0" prefWidth="34.0" translateX="120.0" />
+            <TextField fx:id="Bit2" prefHeight="27.0" prefWidth="32.0" translateX="120.0" />
+            <TextField fx:id="Bit3" prefHeight="27.0" prefWidth="34.0" translateX="120.0" />
+            <TextField fx:id="Bit4" prefHeight="27.0" prefWidth="32.0" translateX="120.0" />
+            <Label fx:id="ResultLabel" prefHeight="17.0" prefWidth="91.0" text="Result: " translateX="100.0" translateY="100.0" />
+            <Label prefHeight="39.0" prefWidth="121.0" text="Binary Calculator" translateX="20.0" translateY="-60.0" />
+            <Button fx:id="CalcButton" mnemonicParsing="false" prefHeight="27.0" prefWidth="90.0" text="Calculate" translateX="-75.0" translateY="35.0" />
+            <TextField fx:id="Bit5" prefHeight="27.0" prefWidth="34.0" translateX="-110.0" />
+            <TextField fx:id="Bit6" prefHeight="27.0" prefWidth="31.0" translateX="-110.0" />
+            <TextField fx:id="Bit7" prefHeight="27.0" prefWidth="35.0" translateX="-110.0" />
+            <TextField fx:id="Bit8" prefHeight="27.0" prefWidth="35.0" translateX="-110.0" />
+         </children>
+      </HBox>
+   </children>
+</GridPane>
